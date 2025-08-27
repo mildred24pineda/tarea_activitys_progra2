@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Ir a Vistas de Texto"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnBotones"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Ir a Botones"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnWidgets"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Ir a Widgets"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

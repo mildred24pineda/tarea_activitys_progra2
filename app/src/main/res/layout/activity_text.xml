@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escribe tu nombre:"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aquí se mostrará tu nombre"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar al Menú"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
